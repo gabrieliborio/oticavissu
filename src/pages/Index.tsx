@@ -279,7 +279,7 @@ export default function Index() {
                     <span className="text-[#FFD700] text-sm md:text-base">R$ 97/mês</span>
                   </div>
                   <div className="text-sm md:text-base text-neutral-200">
-                    Métricas detalhadas das 3 lojas direto no seu WhatsApp todos os dias
+                    Métricas detalhadas das 3 lojas direto no seu WhatsApp todos os dias.
                   </div>
                 </li>
               </ul>
