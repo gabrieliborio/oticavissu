@@ -256,22 +256,32 @@ export default function Index() {
               </div>
               <ul className="list-none p-0 space-y-6 w-full">
                 <li>
-                  <div className="flex items-center mb-1 font-semibold text-white text-base md:text-lg">
-                    Disparador Inteligente de WhatsApp
+                  <div className="flex items-center justify-between mb-1 font-semibold text-white text-base md:text-lg">
+                    <span>Disparador Inteligente de WhatsApp</span>
+                    <span className="text-[#FFD700] text-sm md:text-base">R$ 497/mês</span>
                   </div>
                   <div className="text-sm md:text-base text-neutral-200">
                     Sistema automatizado para reativar sua base de clientes existente e aumentar vendas recorrentes
                   </div>
                 </li>
                 <li>
-                  <div className="flex items-center mb-1 font-semibold text-white text-base md:text-lg">
-                    Relatório Executivo Diário
+                  <div className="flex items-center justify-between mb-1 font-semibold text-white text-base md:text-lg">
+                    <span>Relatório Executivo Diário</span>
+                    <span className="text-[#FFD700] text-sm md:text-base">R$ 97/mês</span>
                   </div>
                   <div className="text-sm md:text-base text-neutral-200">
                     Métricas detalhadas das 3 lojas direto no seu WhatsApp todos os dias
                   </div>
                 </li>
               </ul>
+              <div className="w-full border-t border-[#FFD700]/30 mt-8 pt-6 text-center">
+                <p className="text-neutral-200 text-base md:text-lg">
+                  Total em bônus que você recebe:
+                </p>
+                <p className="text-2xl md:text-4xl font-bold text-[#FFD700] drop-shadow-lg mt-2">
+                  R$ 594/mês
+                </p>
+              </div>
             </div>
           </section>
 
