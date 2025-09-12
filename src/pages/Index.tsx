@@ -135,7 +135,7 @@ export default function Index() {
                 </li>
                 <li className="flex items-center text-sm md:text-base text-neutral-200">
                   <CheckIcon />
-                  Sistema Avançado de Rastreamento via WhatsApp
+                  Sistema Avançado de Rastreamento
                 </li>
                 <li className="flex items-center text-sm md:text-base text-neutral-200">
                   <CheckIcon />
