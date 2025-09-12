@@ -102,7 +102,7 @@ export default function Index() {
           <header className="w-full max-w-2xl flex flex-col items-center mb-12">
             <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-3 leading-tight drop-shadow-lg text-center">
               Proposta <span className="text-[#FF0000]">Exclusiva</span> <br />
-              <span className="text-white"> Óticas Etica</span>
+              <span className="text-white">Grupo Focco Brasil</span>
             </h1>
             <p className="text-base md:text-lg text-neutral-300 max-w-xl text-center">
               Soluções de marketing e atendimento com tecnologia, transparência e performance.
@@ -273,13 +273,22 @@ export default function Index() {
                     Métricas detalhadas das 3 lojas direto no seu WhatsApp todos os dias
                   </div>
                 </li>
+                <li>
+                  <div className="flex items-center justify-between mb-1 font-semibold text-white text-base md:text-lg">
+                    <span>Especialista em Óticas</span>
+                    <span className="text-[#FFD700] text-sm md:text-base">Valor imensurável</span>
+                  </div>
+                  <div className="text-sm md:text-base text-neutral-200">
+                    Com 8 anos de experiência no mercado de óticas, ajudei lojas a crescerem de 0 para 7 unidades, atingindo um faturamento superior a R$ 4,2 milhões por mês.
+                  </div>
+                </li>
               </ul>
               <div className="w-full border-t border-[#FFD700]/30 mt-8 pt-6 text-center">
                 <p className="text-neutral-200 text-base md:text-lg">
                   Total em bônus que você recebe:
                 </p>
                 <p className="text-2xl md:text-4xl font-bold text-[#FFD700] drop-shadow-lg mt-2">
-                  R$ 594/mês
+                  R$ 594/mês + Consultoria de Especialista
                 </p>
               </div>
             </div>
