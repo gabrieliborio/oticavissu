@@ -270,7 +270,7 @@ export default function Index() {
                     <span className="text-[#FFD700] text-sm md:text-base">R$ 497/mês</span>
                   </div>
                   <div className="text-sm md:text-base text-neutral-200">
-                    Sistema automatizado para reativar sua base de clientes existente e aumentar vendas recorrentes
+                    Sistema automatizado para reativar sua base de clientes existente e aumentar vendas recorrentes.
                   </div>
                 </li>
                 <li>
