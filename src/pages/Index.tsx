@@ -257,6 +257,15 @@ export default function Index() {
               <ul className="list-none p-0 space-y-6 w-full">
                 <li>
                   <div className="flex items-center justify-between mb-1 font-semibold text-white text-base md:text-lg">
+                    <span>Especialista em Óticas</span>
+                    <span className="text-[#FFD700] text-sm md:text-base">Valor Imensurável</span>
+                  </div>
+                  <div className="text-sm md:text-base text-neutral-200">
+                    Com 8 anos de experiência no mercado de óticas, ajudei lojas a crescerem de 0 para 7 unidades, atingindo um faturamento superior a R$ 4,2 milhões por mês.
+                  </div>
+                </li>
+                <li>
+                  <div className="flex items-center justify-between mb-1 font-semibold text-white text-base md:text-lg">
                     <span>Disparador Inteligente de WhatsApp</span>
                     <span className="text-[#FFD700] text-sm md:text-base">R$ 497/mês</span>
                   </div>
