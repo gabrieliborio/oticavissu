@@ -139,7 +139,7 @@ export default function Index() {
                 </li>
                 <li className="flex items-center text-sm md:text-base text-neutral-200">
                   <CheckIcon />
-                  Grupo de Acompanhamento vis WhatsApp
+                  Grupo de Acompanhamento via WhatsApp
                 </li>
                 <li className="flex items-center text-sm md:text-base text-neutral-200">
                   <CheckIcon />
