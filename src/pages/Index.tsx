@@ -102,7 +102,7 @@ export default function Index() {
           <header className="w-full max-w-2xl flex flex-col items-center mb-12">
             <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-3 leading-tight drop-shadow-lg text-center">
               Proposta <span className="text-[#FF0000]">Exclusiva</span> <br />
-              <span className="text-white">Grupo Focco Brasil</span>
+              <span className="text-white">Óticas Ética</span>
             </h1>
             <p className="text-base md:text-lg text-neutral-300 max-w-xl text-center">
               Soluções de marketing e atendimento com tecnologia, transparência e performance.
