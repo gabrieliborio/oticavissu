@@ -83,7 +83,7 @@ export default function Index() {
   const totalAgenteAtendimentoPrice = agenteAtendimentoBasePrice + (isFollowUpActive ? 700 : 0);
 
   // Preço fixo da Gestão de Marketing, sem canais adicionais interativos
-  const totalMarketingPrice = 2000; 
+  const totalMarketingPrice = 1800; 
 
   const handleToggleFollowUp = () => {
     setIsFollowUpActive(!isFollowUpActive);
@@ -102,7 +102,7 @@ export default function Index() {
           <header className="w-full max-w-2xl flex flex-col items-center mb-12">
             <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-3 leading-tight drop-shadow-lg text-center">
               Proposta <span className="text-[#FF0000]">Exclusiva</span> <br />
-              <span className="text-white">Le Optique</span>
+              Le Optique
             </h1>
             <p className="text-base md:text-lg text-neutral-300 max-w-xl text-center">
               Soluções de marketing e atendimento com tecnologia, transparência e performance.
@@ -148,7 +148,6 @@ export default function Index() {
               </ul>
               <div className="flex flex-col items-end border-t border-white/10 pt-6">
                 <AnimatedPrice target={totalMarketingPrice} />
-                <span className="text-sm md:text-base text-neutral-400 mt-1">Para até 3 Lojas</span>
               </div>
               <div className="absolute right-0 bottom-0 w-32 h-32 bg-gradient-radial from-[#FF0000]/30 to-transparent rounded-full blur-2xl opacity-60 pointer-events-none" />
             </div>
@@ -239,8 +238,8 @@ export default function Index() {
               <h2 className="text-base md:text-lg font-semibold text-white mb-2">
                 Observações Importantes
               </h2>
-              <p className="text-sm text-neutral-300 leading-relaxed">
-                O plano de <span className="text-white font-semibold">Gestão de Marketing (R$ 2000)</span> e a <span className="text-white font-semibold">Taxa de Setup (R$ 2000)</span> são pré-pagos. A primeira mensalidade do <span className="text-white font-semibold">Agente de Atendimento (R$ 1500)</span> será cobrada somente após 30 dias do início dos serviços.
+              <p className="text-neutral-200 text-base md:text-lg leading-relaxed">
+                O plano de <span className="text-white font-semibold">Gestão de Marketing (R$ 1800)</span> e a <span className="text-white font-semibold">Taxa de Setup (R$ 2000)</span> são pré-pagos. A primeira mensalidade do <span className="text-white font-semibold">Agente de Atendimento (R$ 1500)</span> será cobrada somente após 30 dias do início dos serviços.
               </p>
             </div>
           </section>
@@ -261,7 +260,7 @@ export default function Index() {
                     <span className="text-[#FFD700] text-sm md:text-base">Valor Imensurável</span>
                   </div>
                   <div className="text-sm md:text-base text-neutral-200">
-                    Com 8 anos de experiência no mercado de óticas, ajudei lojas a crescerem de 0 para 7 unidades, atingindo um faturamento superior a R$ 4,2 milhões por mês.
+                    Com 8 anos de experiência no mercado de óticas, ajudei lojas a crescerem de 0 para 7 unidades, atingindo um faturamento superior a multiplos milhões por mês.
                   </div>
                 </li>
                 <li>
@@ -279,7 +278,7 @@ export default function Index() {
                     <span className="text-[#FFD700] text-sm md:text-base">R$ 97/mês</span>
                   </div>
                   <div className="text-sm md:text-base text-neutral-200">
-                    Métricas detalhadas das 3 lojas direto no seu WhatsApp todos os dias.
+                    Métricas detalhadas direto no seu WhatsApp todos os dias.
                   </div>
                 </li>
               </ul>
