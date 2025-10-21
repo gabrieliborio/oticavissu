@@ -102,7 +102,7 @@ export default function Index() {
           <header className="w-full max-w-2xl flex flex-col items-center mb-12">
             <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-3 leading-tight drop-shadow-lg text-center">
               Proposta <span className="text-[#FF0000]">Exclusiva</span> <br />
-              Le Optique
+              Ótica Vissu
             </h1>
             <p className="text-base md:text-lg text-neutral-300 max-w-xl text-center">
               Soluções de marketing e atendimento com tecnologia, transparência e performance.
@@ -238,7 +238,7 @@ export default function Index() {
               <h2 className="text-base md:text-lg font-semibold text-white mb-2">
                 Observações Importantes
               </h2>
-              <p className="text-neutral-200 text-base md:text-lg leading-relaxed">
+              <p className="text-white text-base md:text-lg leading-relaxed font-medium">
                 O plano de <span className="text-white font-semibold">Gestão de Marketing (R$ 1800)</span> e a <span className="text-white font-semibold">Taxa de Setup (R$ 2000)</span> são pré-pagos. A primeira mensalidade do <span className="text-white font-semibold">Agente de Atendimento (R$ 1500)</span> será cobrada somente após 30 dias do início dos serviços.
               </p>
             </div>
