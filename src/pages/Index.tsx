@@ -238,7 +238,7 @@ export default function Index() {
               <h2 className="text-base md:text-lg font-semibold text-white mb-2">
                 Observações Importantes
               </h2>
-              <p className="text-white text-base md:text-lg leading-relaxed font-medium">
+              <p className="text-neutral-300 text-sm leading-relaxed">
                 O plano de <span className="text-white font-semibold">Gestão de Marketing (R$ 1800)</span> e a <span className="text-white font-semibold">Taxa de Setup (R$ 2000)</span> são pré-pagos. A primeira mensalidade do <span className="text-white font-semibold">Agente de Atendimento (R$ 1500)</span> será cobrada somente após 30 dias do início dos serviços.
               </p>
             </div>
